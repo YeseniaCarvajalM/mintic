@@ -4,10 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f2b0134bb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos.css" />
-    <title>Document</title>
+    <title>Registro</title>
   </head>
   <body>
+    <form class="formulario">
+        <h1>Registro</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre Completo" required>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="email" placeholder="Correo Electronico" required>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" required>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label">Confirmo que todos los datos son correctos</label>
+                <div class="invalid-feedback">Por favor, confirme que los datos ingresados ​​sean correctos.</div>
+            </div>
+            
+
+            <div class="form-button mt-3">
+            <button id="boton_registro" type="submit" class="btn btn-primary">Registrate</button>
+            </div>
+            <p>Al registrarte aceptas nuestras politicas de privacidad</p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="#"> Inicia Sesion</a></p>
+
+        </div>
+      </form>
+    
+    
+    //Dejo el código abajo por si debemos colocar algo mas sin embargo esta es mi propuesta.
+    
+    
+    
+    
     <div class="form-body">
       <div class="row">
           <div class="form-holder">
