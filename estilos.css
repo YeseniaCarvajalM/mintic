@@ -270,7 +270,7 @@ html, body {
 /*Estilo de pagina de registro.*/
 
 .contenedor{
-    width: 100%;
+    width: 93%;
     padding: 15px;
 }
 
@@ -288,9 +288,10 @@ input[type="text"],
 input[type="email"],
 input[type="password"]{
     font-size: 20px;
-    width: 100%;
+    width: 95.2%;
     padding: 10px;
     border: none;
+    
 }
 
 .input-contenedor{
@@ -304,7 +305,7 @@ input[type="password"]{
 }
 #boton_registro{
     border: none;
-    width: 100%;
+    width: 90%;
     color: white;
     font-size: 20px;
     background: #1a2537;
