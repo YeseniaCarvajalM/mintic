@@ -111,6 +111,7 @@ body {
 .form-content input[type=text],
 .form-content input[type=password],
 .form-content input[type=email],
+.form-content input[type=phone],
 .form-content select {
   width             : 100%;
   padding           : 9px 20px;
@@ -296,7 +297,7 @@ img {
   margin : 0 auto;
 }
 
-.formulario {
+.form {
   background   : #fff;
   margin-top   : 150px;
   padding      : 3px;
@@ -314,6 +315,7 @@ h1 {
 
 input[type="text"],
 input[type="email"],
+input[type=phone],
 input[type="password"] {
   font-size: 20px;
   padding  : 10px;
@@ -365,7 +367,7 @@ p {
 }
 
 @media(min-width:786px) {
-  .formulario {
+  .form {
     width: 500px;
   }
 }
