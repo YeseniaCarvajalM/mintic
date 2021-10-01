@@ -30,7 +30,7 @@
       </div>
 
       <div class="input-contenedor">
-        <input id="campoContraseña" class="fas fa-key" type="password" placeholder="&#xf084;    Contraseña" required>
+        <input id="campoContraseña" class="fas fa-key" minlength="6" maxlength="12" type="password" placeholder="&#xf084;    Contraseña" required>
       </div>
 
       <div class="form-check">
@@ -41,7 +41,7 @@
 
 
       <div class="form-button">
-        <button id="boton_registro" type="submit" class="btn btn-primary">Registrate</button>
+        <button id="boton_registro" type="submit" class="btn btn-primary" onclick="validar()">Registrate</button>
       </div>
       <p>Al registrarte aceptas nuestras politicas de privacidad</p>
       <p>¿Ya tienes una cuenta?<a class="link" href="#"> Inicia Sesion</a></p>
@@ -49,6 +49,7 @@
     </div>
   </form>
 
+  <script src="form2.js"></script>
 </body>
 
 </html>
